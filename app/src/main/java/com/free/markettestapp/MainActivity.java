@@ -51,10 +51,12 @@ public class MainActivity extends AppCompatActivity {
         Fruit kiwi = new Fruit("Kivi", R.drawable.kiwi, "30 Kg");
         Fruit strawberry = new Fruit("Çilek", R.drawable.strawberry, "30 Kg");
         Fruit watermelon = new Fruit("Karpuz", R.drawable.watermelon, "30 Kg");
-        Fruit grapes = new Fruit("Uzum", R.drawable.grapes, "30 Kg");
+        Fruit grapes = new Fruit("Üzüm", R.drawable.grapes, "30 Kg");
         Fruit pineapple = new Fruit("Ananas", R.drawable.downloadfruit, "30 Kg");
         Fruit banana = new Fruit("Muz", R.drawable.download, "30 Kg");
         Fruit orange = new Fruit("Portakal", R.drawable.orange, "30 Kg");
+        Fruit peach = new Fruit("Şeftali", R.drawable.s, "30kg");
+        Fruit grapefruit = new Fruit("Greyfurt", R.drawable.grey, "30kg");
 
         fruitList.add(watermelon);
         fruitList.add(strawberry);
@@ -64,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
         fruitList.add(pineapple);
         fruitList.add(banana);
         fruitList.add(orange);
+        fruitList.add(peach);
+        fruitList.add(grapefruit);
 
     }
 

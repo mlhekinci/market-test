@@ -15,7 +15,9 @@ public class CartActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
+        CartAdapter cartAdapter = new CartAdapter(CartActivity.this, R.layout.cart_item, Cart.getInstance().getItems());
 
         ListView listView = findViewById(R.id.list);
+        listView.setAdapter(cartAdapter);
     }
 }
